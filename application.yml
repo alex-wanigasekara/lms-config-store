@@ -1,0 +1,11 @@
+ redis:
+    host: localhost
+    port: 6379
+    timeout: 10000
+  cache:
+    type: REDIS
+    redis:
+      cache-null-values: false
+      use-key-prefix: true
+      key-prefix: lms
+      time-to-live: 60000

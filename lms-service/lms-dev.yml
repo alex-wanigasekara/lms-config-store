@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/demo?createDatabaseIfNotExist=true
+    username: root
+    data-password:
+  jpa:
+     hibernate:
+        ddl-auto: update
